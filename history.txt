@@ -1,0 +1,119 @@
+    1  cd tomcat/
+    2  dir
+    3  path
+    4  d:
+    5  ll
+    6  path
+    7  pwd
+    8  d:
+    9  ll
+   10  pwd
+   11  cd d:
+   12  pwd
+   13  ll
+   14  cd gitLocal/
+   15  ll
+   16  mkdir firstRepo
+   17  history
+   18  git --version
+   19  git --get usre.name
+   20  git --global user.name
+   21  git config user.name
+   22  git config user.email
+   23  git config --global user.email "Vikas_naryal@outlook.com"
+   24  git config user.email
+   25  pwd
+   26  ll
+   27  ls
+   28  ll
+   29  cd firstRepo/
+   30  git init
+   31  vi index.html
+   32  cat index.html 
+   33  ls
+   34  git status
+   35  git add index.html
+   36  ll
+   37  cat index.html 
+   38  git status
+   39  vi README.md
+   40  ll
+   41  vi bluestyle.css
+   42  vi index.html 
+   43  ll
+   44  git add -all
+   45  git status
+   46  history
+   47  git -add README.md
+   48  git add README.md 
+   49  git add --all
+   50  git status
+   51  git commit
+   52  ll
+   53  git status
+   54  ls
+   55  git commit -m "First release of Hello Worl!"
+   56  git status
+   57  git log
+   58  git help
+   59  git tag -help
+   60  git help --all > commandlist.txt
+   61  start
+   62  git branch --help
+   63  git branch -help
+   64  git branch -show-current
+   65  git branch --show-current
+   66  git branch hello-world-images
+   67  git branch
+   68  git checkout hello-world-images 
+   69  ll
+   70  vi index.html 
+   71  git status
+   72  git status
+   73  git add --all
+   74  git status
+   75  git commit -m "Added image to Hello World"
+   76  ls
+   77  ll
+   78  vi index.html 
+   79  git checkout master
+   80  ll
+   81  cat index.html 
+   82  history >> history.txt
+   83  history
+   84  git status
+   85  git branch
+   86  git checkout hello-world-images 
+   87  git branch
+   88  git checkout master
+   89  git branch
+   90  git status
+   91  git checkout hello-world-images 
+   92  git status
+   93  git branch
+   94  git checkout master
+   95  git branch
+   96  git status
+   97  git add history.txt 
+   98  git status
+   99  history
+  100  git status
+  101  git checkout master
+  102  git branch
+  103  git checkout hello-world-images 
+  104  git checkout -b emergency-fix
+  105  git branch
+  106  ll
+  107  git checkout master
+  108  ll
+  109  git branch
+  110  citool
+  111  git branch
+  112  git branch --delete emergency-fix 
+  113  git branch --D emergency-fix 
+  114  git branch
+  115  git branch -d emergency-fix 
+  116  git branch -D emergency-fix 
+  117  git branch
+  118  ll
+  119  history > history.txt 
